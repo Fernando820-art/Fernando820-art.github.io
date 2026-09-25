@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="Hola" content="width=device-width, initial-scale=1.0" />
+  <title>Bienvenido - Mi Sitio Web</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVEGACIÓN -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <h1>Mi Marca</h1>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre mí</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- SECCIÓN HERO (Principal) -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Bienvenido a mi sitio web</h1>
+      <p class="hero-subtitle">Diseño, desarrollo y soluciones digitales profesionales</p>
+      <button class="btn btn-primary">Comenzar ahora</button>
+    </div>
+    <div class="hero-image">
+      <div class="placeholder-image">🚀</div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE SERVICIOS -->
+  <section id="servicios" class="services">
+    <h2>Mis Servicios</h2>
+    <p class="section-subtitle">Lo que puedo hacer por ti</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🎨</div>
+        <h3>Diseño Web</h3>
+        <p>Creamos diseños modernos y atractivos que capturan la atención de tus clientes.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">💻</div>
+        <h3>Desarrollo</h3>
+        <p>Desarrollamos sitios web rápidos, seguros y optimizados para todos los dispositivos.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📱</div>
+        <h3>Responsive</h3>
+        <p>Tu sitio se verá perfecto en móviles, tablets y computadoras de escritorio.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔍</div>
+        <h3>SEO</h3>
+        <p>Optimizamos tu sitio para que aparezcas en los primeros resultados de Google.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">⚡</div>
+        <h3>Rendimiento</h3>
+        <p>Sitios ultra rápidos que mejoran la experiencia del usuario y el SEO.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🛡️</div>
+        <h3>Seguridad</h3>
+        <p>Protegemos tu sitio con certificados SSL y las mejores prácticas de seguridad.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN SOBRE MÍ -->
+  <section id="sobre" class="about">
+    <div class="about-content">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy un desarrollador web apasionado por crear experiencias digitales increíbles. 
+        Con más de 5 años de experiencia en diseño y desarrollo, he ayudado a cientos de 
+        empresas a establecer su presencia en línea.
+      </p>
+      <p>
+        Mi objetivo es transformar tus ideas en soluciones web funcionales, hermosas y 
+        efectivas que generen resultados reales para tu negocio.
+      </p>
+      <div class="skills">
+        <h3>Mis habilidades</h3>
+        <div class="skills-list">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">PHP</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">UI/UX</span>
+        </div>
+      </div>
+    </div>
+    <div class="about-image">
+      <div class="placeholder-image">👨‍💻</div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE CONTACTO -->
+  <section id="contacto" class="contact">
+    <h2>Ponte en contacto</h2>
+    <p class="section-subtitle">¿Tienes un proyecto en mente? ¡Hablemos!</p>
+    <div class="contact-container">
+      <form class="contact-form">
+        <input type="text" placeholder="Tu nombre" required>
+        <input type="email" placeholder="Tu email" required>
+        <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+      </form>
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <h3>Email</h3>
+          <p>hola@ejemplo.com</p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📱</div>
+          <h3>Teléfono</h3>
+          <p>+34 123 456 789</p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <h3>Ubicación</h3>
+          <p>España</p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🌐</div>
+          <h3>Redes Sociales</h3>
+          <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2026 Mi Marca. Todos los derechos reservados.</p>
+      <p>Hecho con ❤️ por Fernando</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
